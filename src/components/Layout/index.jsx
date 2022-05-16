@@ -9,12 +9,10 @@ import {
 const Layout = ({ children }) => {
 	return (
 		<LayoutContainer>
-			<SidebarContainer className="sidebar__container">
+			<SidebarContainer>
 				<Sidebar />
 			</SidebarContainer>
-			<PageContentContainer className="page-content__container">
-				{children}
-			</PageContentContainer>
+			<PageContentContainer>{children}</PageContentContainer>
 		</LayoutContainer>
 	);
 };

@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Topbar from "../components/Topbar";
 
 const Home = () => {
 	return (
 		<Layout>
-			<h1>Home</h1>
+			<Topbar title={"Dashboard"} />
 		</Layout>
 	);
 };

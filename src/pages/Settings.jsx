@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/Layout";
-
+import Topbar from "../components/Topbar";
 const Settings = () => {
 	return (
 		<Layout>
-			<h1>Settings</h1>
+			<Topbar title={"Settings"} />
 		</Layout>
 	);
 };

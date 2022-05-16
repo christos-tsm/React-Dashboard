@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Topbar from "../components/Topbar";
 
 const Metrics = () => {
 	return (
 		<Layout>
-			<h1>Metrics</h1>
+			<Topbar title={"Metrics"} />
 		</Layout>
 	);
 };

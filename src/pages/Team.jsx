@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/Layout";
-
+import Topbar from "../components/Topbar";
 const Team = () => {
 	return (
 		<Layout>
-			<h1>Team</h1>
+			<Topbar title={"Team"} />
 		</Layout>
 	);
 };
