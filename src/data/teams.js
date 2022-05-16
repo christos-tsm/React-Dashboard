@@ -1,0 +1,58 @@
+export const members = [
+	{
+		id: 1,
+		first_name: "John",
+		last_name: "Doe",
+		role: "Marketing Manager",
+		joined: "10/05/2020",
+	},
+	{
+		id: 2,
+		first_name: "Erika",
+		last_name: "Smitham",
+		role: "Marketing Assistant",
+		joined: "10/03/2020",
+	},
+	{
+		id: 3,
+		first_name: "David",
+		last_name: "Koelpin",
+		role: "Back-end Developer",
+		joined: "10/01/2018",
+	},
+	{
+		id: 4,
+		first_name: "Brian",
+		last_name: "Pfeffer",
+		role: "Chief Financial Supervisor",
+		joined: "05/08/2016",
+	},
+	{
+		id: 5,
+		first_name: "Veronica",
+		last_name: "Wunsch",
+		role: "Graphic Designer",
+		joined: "10/05/2020",
+	},
+	{
+		id: 6,
+		first_name: "Zen",
+		last_name: "Heller",
+		role: "Front-end Developer",
+		joined: "02/10/2020",
+	},
+	{
+		id: 7,
+		first_name: "Tamara",
+		last_name: "Okhand",
+		role: "Chief Technology Officer",
+		joined: "02/05/2015",
+	},
+	{
+		id: 8,
+		first_name: "Harry",
+		last_name: "Neuer",
+		role: "Chief Executive Officer",
+		joined: "07/01/2014",
+	},
+];
