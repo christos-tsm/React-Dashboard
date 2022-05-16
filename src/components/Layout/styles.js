@@ -8,7 +8,7 @@ export const SidebarContainer = styled.div`
 
 export const PageContentContainer = styled.div`
 	flex: 1;
-	background-color: ${theme.colors.primary_light};
+	background-color: ${theme.colors.gray_light};
 	padding: 20px;
 `;
 

@@ -16,7 +16,8 @@ export const TopbarTitle = styled.h1`
 export const TopbarActionsContainer = styled.div`
 	display: flex;
 	align-items: center;
-	column-gap: 20px;
+	column-gap: 30px;
+	grid-column-gap: 30px;
 `;
 
 export const TopbarIconContainer = styled.div`
@@ -26,13 +27,29 @@ export const TopbarIconContainer = styled.div`
 `;
 
 export const NotificationIndicator = styled.span`
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
-	background-color: ${theme.colors.primary};
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: ${({ primary, secondary }) =>
+		primary
+			? theme.colors.primary
+			: secondary
+			? theme.colors.secondary
+			: theme.colors.tertiary};
+	color: ${({ primary, secondary }) =>
+		primary
+			? theme.colors.gray_light
+			: secondary
+			? theme.colors.gray_dark
+			: "#fff"};
 	position: absolute;
-	bottom: 0px;
-	right: -2px;
+	font-size: 10px;
+	line-height: 0;
+	top: -5px;
+	right: -8px;
 `;
 
 export const TopbarSearch = styled.input`

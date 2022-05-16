@@ -19,11 +19,11 @@ const Topbar = ({ title }) => {
 			<TopbarActionsContainer>
 				<TopbarIconContainer>
 					<AiOutlineMail size={26} color={theme.colors.gray_dark} />
-					<NotificationIndicator />
+					<NotificationIndicator primary>2</NotificationIndicator>
 				</TopbarIconContainer>
 				<TopbarIconContainer>
 					<AiOutlineBell size={26} color={theme.colors.gray_dark} />
-					<NotificationIndicator />
+					<NotificationIndicator primary>4</NotificationIndicator>
 				</TopbarIconContainer>
 				<TopbarSearch placeholder="Search..." />
 			</TopbarActionsContainer>
